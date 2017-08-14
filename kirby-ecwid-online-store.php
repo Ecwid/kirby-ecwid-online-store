@@ -49,7 +49,9 @@ if(function_exists('panel') && ($panel = panel()) && site()->user() && site()->u
 				
 				$oauth = new Ecwid\Core\Oauth;
 				
-				go($oauth->getConnectUrl());
+				// go() changes urls like "abc.com/def?param=value" making them abc.com/def/?param=value
+				header('Location: ' . $oauth->getConnectUrl());
+				exit();
 			},
 			'method'  => 'GET|POST'
 		],
