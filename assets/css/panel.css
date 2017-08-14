@@ -1,4 +1,4 @@
-.ecwid-connect:before {
+.ecwid-reconnect:before {
     font-family: FontAwesome;
     content: "\f0c1";
     width: 1.2em;
@@ -6,7 +6,7 @@
     padding-right: 5px;
 }
 
-.ecwid-connect:hover:before {
+.ecwid-reconnect:hover:before {
     content: "\f141";
 }
 

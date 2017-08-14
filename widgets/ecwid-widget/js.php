@@ -1,6 +1,6 @@
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.btn.ecwid-connect').click(function() {
+    $('.ecwid-connect').click(function() {
         window.ecwidConnectReload = function() {
             this.app.content.reload();
 		}

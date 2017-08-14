@@ -8,7 +8,7 @@
 <?php endif; ?>
 <div>
 	<?php if (Ecwid::get('storeID')): ?>
-    <a class="ecwid-connect" href="javascript:void(0);">Disconnect and connect another store</a>    
+    <a class="ecwid-connect ecwid-reconnect" href="javascript:void(0);">Disconnect and connect another store</a>    
     <?php else: ?>
     <a class="btn btn-rounded ecwid-connect" href="javascript:void(0);">Connect</a>
     <?php endif; ?>
