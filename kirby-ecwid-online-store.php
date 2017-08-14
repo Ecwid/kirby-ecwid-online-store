@@ -16,7 +16,7 @@ $kirby->set('blueprint', 'ecwid-store',     __DIR__ . '/blueprints/ecwid-store.y
 $kirby->set('widget',  'ecwid-widget', __DIR__ . DS . 'widgets' . DS . 'ecwid-widget');
 
 kirby()->set('option', 'panel.stylesheet', array(
-	kirby()->urls()->index() . '/assets/plugins/ecwid-online-store/css/panel.css',
+	kirby()->urls()->index() . '/assets/plugins/kirby-ecwid-online-store/css/panel.css',
 ));
 $stores = $kirby->site()->pages()->filterBy('ecwid', '==', 'true');
 
