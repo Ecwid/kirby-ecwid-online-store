@@ -1,0 +1,8 @@
+{
+  "name": "ecwid-online-store",
+  "description": "Everything you need to add a store to your Kirby site.",
+  "author": "Vladimir Tarutko <marvin@ecwid.com>",
+  "version": "0.1.0",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}

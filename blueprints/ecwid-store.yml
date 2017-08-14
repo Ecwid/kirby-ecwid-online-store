@@ -1,0 +1,20 @@
+title: Ecwid Store
+template: ecwid-store
+pages: false
+files: false
+preview: true
+deletable: true
+hide: false
+icon: shopping-cart
+fields:
+  widgets:
+    label: Widgets
+    type: checkboxes
+    options: 
+      categories: Horizontal Categories
+      search: Search Box
+      minicart: Minicart
+    columns: 1
+  ecwid:
+    type: hidden
+    default: true
