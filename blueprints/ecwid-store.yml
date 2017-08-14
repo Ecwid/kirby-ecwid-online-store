@@ -10,6 +10,7 @@ fields:
   widgets:
     label: Widgets
     type: checkboxes
+    default: categories,search,minicart
     options: 
       categories: Horizontal Categories
       search: Search Box
