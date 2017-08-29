@@ -10,7 +10,8 @@
 	<?php if (Ecwid::get('storeID')): ?>
     <a class="ecwid-connect ecwid-reconnect" href="javascript:void(0);">Disconnect and connect another store</a>    
     <?php else: ?>
-    <a class="btn btn-rounded ecwid-connect" href="javascript:void(0);">Connect</a>
+    <a class="btn btn-rounded" href="https://my.ecwid.com/?partner=kirby#register">Create Free Store</a>  
+    <a class="btn btn-rounded ecwid-connect" href="javascript:void(0);">Connect Existing Ecwid Store</a>
     <?php endif; ?>
 </div>
     

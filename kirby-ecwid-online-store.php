@@ -13,7 +13,7 @@ $kirby->set('template', 'ecwid-store',     __DIR__ . '/templates/ecwid-store.php
 $kirby->set('blueprint', 'ecwid-store',     __DIR__ . '/blueprints/ecwid-store.yml');
 
 // Register widgets
-$kirby->set('widget',  'ecwid-widget', __DIR__ . DS . 'widgets' . DS . 'ecwid-widget');
+$kirby->set('widget',  'ecwid', __DIR__ . DS . 'widgets' . DS . 'ecwid');
 
 kirby()->set('option', 'panel.stylesheet', array(
 	kirby()->urls()->index() . '/assets/plugins/kirby-ecwid-online-store/css/panel.css',
@@ -37,7 +37,6 @@ foreach ($stores as $store) {
 		)
 	));
 }
-
 
 if(function_exists('panel') && ($panel = panel()) && site()->user() && site()->user()->hasPanelAccess()) {
 
