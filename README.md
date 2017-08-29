@@ -19,7 +19,7 @@ Make sure that the plugin folder structure looks like this:
     site/plugins/kirby-ecwid-online-store/
 
 ### 3. Kirby plugin installer
-If you use the [Kirby plugin installer](https://github.com/jenstornell/kirby-plugin-installer), you can just put the URL of this repository (https://github.com/Ecwid/kirby-ecwid-online-store) to it — this will install the Ecwid plugin.
+If you use the [Kirby plugin installer](https://github.com/jenstornell/kirby-plugin-installer), you can put the URL of this repository (https://github.com/Ecwid/kirby-ecwid-online-store) in it — this will install the Ecwid plugin.
 
 ## Usage
 
@@ -33,7 +33,7 @@ If you use the [Kirby plugin installer](https://github.com/jenstornell/kirby-plu
 
 ## Support
 
-For more information more about Ecwid store setup instructions and useful tips, visit the Ecwid Help Center: https://support.ecwid.com/ . 
+For more information about Ecwid, setup instructions and useful tips, visit the Ecwid Help Center: https://support.ecwid.com/ . 
 
 
 ## License
