@@ -76,7 +76,7 @@ if(function_exists('panel') && ($panel = panel()) && site()->user() && site()->u
 					}
 				}
 
-				panel()->notify(':)');
+				panel()->notify('Your store has been connected!');
 				echo '<script>window.close();</script>';
 			},
 			'method'  => 'GET|POST'
