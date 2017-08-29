@@ -18,7 +18,8 @@ class OAuth
 			'client_id' => $api->getClientID(),
 			'redirect_uri' => urlencode($this->getRedirectUrl()),
 			'response_type' => 'code',
-			'scope' => $this->getScope()
+			'scope' => $this->getScope(),
+			'partner' => 'kirby'
 		);
 		
 		return $base . '?' . http_build_query($params);
