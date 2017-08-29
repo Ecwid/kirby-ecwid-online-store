@@ -1,4 +1,4 @@
-.ecwid-reconnect:before {
+.ecwid-connect-link:before {
     font-family: FontAwesome;
     content: "\f0c1";
     width: 1.2em;
@@ -6,7 +6,9 @@
     padding-right: 5px;
 }
 
-.ecwid-reconnect:hover:before {
+.ecwid-connect-link:hover:before,
+.ecwid-connect-link.ecwid-reconnect:hover:before
+{
     content: "\f141";
 }
 
@@ -20,5 +22,5 @@
 }
 
 #ecwid-widget .btn {
-    margin: 5px;
+    margin-bottom: 5px;
 }
