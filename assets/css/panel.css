@@ -12,6 +12,10 @@
     content: "\f141";
 }
 
+.ecwid-connect-existing {
+    line-height: 40px;
+}
+
 .ecwid-first-row {
     margin-bottom: 8px;
 }
