@@ -18,15 +18,12 @@ $kirby->set('widget',  'ecwid', __DIR__ . DS . 'widgets' . DS . 'ecwid');
 kirby()->set('option', 'panel.stylesheet', array(
 	kirby()->urls()->index() . '/assets/plugins/kirby-ecwid-online-store/css/panel.css',
 ));
-$stores = $kirby->site()->pages()->filterBy('ecwid', '==', 'true');
+$stores = $kirby->site()->pages()->filterBy('template', 'ecwid-store');
 
 foreach ($stores as $store) {
 	
 	$page = page($store);
-
-	$abc = function() {
-		return page('/ecwid');
-	};
+	
 	kirby()->routes(array(
 		array(
 			'pattern' => $store . '/(:any)',
