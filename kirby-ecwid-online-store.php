@@ -62,7 +62,7 @@ if(function_exists('panel') && ($panel = panel()) && site()->user() && site()->u
 					$created = false;
 					
 					try {
-						Page::create('/shop', 'ecwid-store', array('title' => 'Shop', 'ecwid' => true));
+						Page::create('/shop', 'ecwid-store', array('title' => 'Shop', 'ecwid' => true, 'widgets' => 'categories,search,minicart'));
 						$created = true;
 					} catch (Exception $e) {
 						
