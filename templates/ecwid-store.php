@@ -3,9 +3,6 @@
     window.ec = window.ec || Object();
     window.ec.config = window.ec.config || Object();
     window.ec.config.enable_canonical_urls = true;
-    window.ec.config.chameleon = window.ec.config.chameleon || Object();
-    window.ec.config.chameleon.font = "auto";
-    window.ec.config.chameleon.colors = "auto";			
     window.ec.config.storefrontUrls = window.ec.config.storefrontUrls || {};
     window.ec.config.storefrontUrls.cleanUrls = true;
     
