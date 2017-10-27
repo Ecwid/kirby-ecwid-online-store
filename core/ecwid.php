@@ -38,7 +38,7 @@ class Ecwid
 	
 	public static function encrypt($value)
 	{
-		return crypt::encode($value);
+		return @crypt::encode($value);
 	}
 	
 	public static function decrypt($value)
